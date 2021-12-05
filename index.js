@@ -24,7 +24,7 @@ app.get('/universitydetails',(req,res)=>{
         }
     })
 });
-//universities/details/UUID
+//universities/detail/UUID
 app.get('/universitydetails/:id',(req,res)=>{
     mysqlConnection.query('SELECT * FROM universitydetails WHERE UniversityUUID = ?',[req.params.id],
     (err, rows, fields)=>{
