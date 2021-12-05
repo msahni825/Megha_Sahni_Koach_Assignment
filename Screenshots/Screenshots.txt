@@ -1,0 +1,1 @@
+Adding screenshot for DB, API and Output JSON data
